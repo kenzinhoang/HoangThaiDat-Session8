@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    color: black;
+}
+
+/* navbar css */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    box-shadow: -1px 6px 9px 0px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: -1px 6px 9px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -1px 6px 9px 0px rgba(0, 0, 0, 0.44);
+    margin-bottom: 10px;
+
+}
+
+.navbar-container .logo img {
+    width: 170px;
+
+}
+
+.navbar-container .main-app {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-container .main-app div,
+.navbar-container .language {
+    font-weight: 500;
+}
+
+.navbar-container .language {
+    padding: 5px 10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(233, 219, 219, 0.217);
+}
+
+/* hero section */
+.hero-section {
+    display: flex;
+    background-image: url(https://rikkei.edu.vn/wp-content/uploads/2024/01/bg-home1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-section .hero-img {
+    width: 600px;
+}
+
+.hero-section .main-content-container .main-content-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-section .main-content-container .benefit-list {
+    list-style-type: none;
+}
+
+.hero-section .main-content-container .benefit-list li {
+    margin-bottom: 16px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .main-content-container .benefit-list li img {
+    margin: 5px;
+}
+
+.hero-section .button-group .btn {
+    padding: 12px 17px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: brown;
+    color: white;
+
+}
+
+.hero-section .button-group .test-btn {
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: transparent;
+    color: black;
+
+}
+
+/* benefit start */
+.benefit-section {
+    position: relative;
+}
+
+.benefit-section .benefit-wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: -80px;
+    transform: translateX(-50%);
+}
+
+.benefit-section .benefit-wrapper .benefit-item {
+    border: 1px solid rgba(255, 192, 203, 0.438);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    box-shadow: -1px 12px 5px -6px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: -1px 12px 5px -6px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: -1px 12px 5px -6px rgba(0, 0, 0, 0.28);
+
+}
+
+.benefit-section .benefit-wrapper .benefit-item h3 {
+    font-size: 23px;
+    font-weight: 400;
+    color: brown;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+/* video start */
+
+.video {
+    display: flex;
+    margin: 200px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 150px;
+    gap: 50px;
+
+}
+
+.video .video-title h3 {
+    color: brown;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.video .video-title p {
+    width: 600px;
+    line-height: 30px;
+    font-size: 18px;
+    color: black;
+}
+
+/* benefit item start */
+
+.benefit-list-container {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 150px;
+
+
+}
+
+.benefit-list-container .benefit-list-title {
+    font-size: 28px;
+    padding: 0px 0px 50px 15px;
+    color: brown;
+    text-align: left;
+    width: 800px;
+    font-weight: 600;
+}
+
+.benefit-list-container img {
+    width: 50px;
+    padding: 10px 0px;
+}
+
+.benefit-list-container .benefit-list-container-line1 .benefit-list-item,
+.benefit-list-container-line2 .benefit-list-item {
+    width: 500px;
+}
+
+.benefit-list-container .benefit-list-container-line1 .benefit-list-item h4,
+.benefit-list-container-line2 .benefit-list-item h4 {
+    font-size: 22px;
+    color: brown;
+    padding-bottom: 20px;
+}
+
+.benefit-list-container .benefit-list-container-line1 .benefit-list-item p,
+.benefit-list-container-line2 .benefit-list-item p {
+    color: black;
+}
+
+
+.benefit-list-container .benefit-list-container-line1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    gap: 50px;
+
+
+}
+
+.benefit-list-container .benefit-list-container-line2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    gap: 50px;
+}
+
+.benefit-list-container .button-group {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.benefit-list-container .button-group button {
+    padding: 12px 17px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: brown;
+    color: white;
+}
+
+.benefit-list-container .button-group .test-btn {
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: transparent;
+    color: black;
+
+}
+
+/* Technical start */
+
+.technical {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 150px;
+    background-color: #f8f7fa;
+}
+
+.technical .technical-title {
+    font-size: 28px;
+    padding: 0px 0px 50px 15px;
+    color: brown;
+    text-align: left;
+    width: 800px;
+    font-weight: 600;
+}
+
+.technical .technical-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.technical .technical-list .technical-item {
+    width: 450px;
+
+    background-color: white;
+    padding: 20px;
+}
+
+.technical .technical-list .technical-item h5 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.technical .technical-list .technical-item li {
+    list-style-type: none;
+    margin-bottom: 16px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.technical .technical-list .technical-item img {
+    padding-right: 5px;
+}
+
+.technical .button-group {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.technical .button-group button {
+    padding: 12px 17px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: brown;
+    color: white;
+}
+
+.technical .button-group .test-btn {
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: transparent;
+    color: black;
+
+}
